@@ -29,9 +29,9 @@ namespace PAUP_2023.Controllers
         }
         public ActionResult Student()
         {
-            ViewBag.Ime = "Marko";
+            ViewBag.Ime = "Josko";
             ViewBag.Prezime = "Markic";
-            ViewBag.Godinarod = "1999";
+            ViewBag.Godinarod = 1979;
             return View();
 
         }
